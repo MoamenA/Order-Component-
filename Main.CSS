@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.card .main {
+  width: 350px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 24px;
+  margin: 30px 0px 15px 0px;
+}
+
+.card .descript {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 25px 0px 25px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: hsl(225, 100%, 98%);
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.footer .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 75px 0px 10px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.footer .info .price {
+  color: hsl(224, 23%, 55%);
+  font-size: 13px;
+}
+
+.footer a {
+  font-size: 12px;
+  color: hsl(245, 75%, 52%);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.butn {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 80px;
+  margin: 20px 0px 10px 0px;
+  color: white;
+  font-weight: 900;
+  background-color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+
+.butn:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.canbutn {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  margin: 10px 0px 25px 0px;
+  cursor: pointer;
+}
+
+.canbutn:hover {
+  background-color: hsl(223, 47%, 23%);
+}
